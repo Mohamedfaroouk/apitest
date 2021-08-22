@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David",
+      "age": 30,
+      "cart": [
+        {
+          "name": "fack",
+          "tall": "you"
+        }
+      ]
+    },
+    {
+      "name": "John",
+      "id": 2,
+      "age": 40
+    },
+    {
+      "logo": "sample",
+      "id": 3
+    },
+    {
+      "logo": "sample",
+      "id": 4
+    },
+    {
+      "logo": "sample",
+      "id": 5
+    }
+  ]
+}
