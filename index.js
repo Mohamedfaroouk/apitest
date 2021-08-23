@@ -44,6 +44,13 @@ server.use((req, res, next) => {
     // Continue to JSON Server router
     next()
   }) */
+    // "Single Broast":[],
+  //  "Family Broast":[],
+   // "Salad":[],
+  //  "Kids":[],
+   // "Side Items":[],
+   // "Extra":[]
+
   const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
@@ -51,18 +58,21 @@ const middlewares = jsonServer.defaults()
 server.use(jsonServer.bodyParser)
 
 server.use(middlewares)
-server.use((req, res, next) => {
+server.post("/echo1",(req, res, next) => {
     const {logo}=req.body;
-    if(req.method==='POST'){
+  
         if(!logo){
             res.sendStatus(404)
 
         }
-       res.sendStatus(401)
-    } else{
+     
+    else{
         next()
     }
 })
+server.get('/echo', (req, res,next) => {
+   next()
+  })
 server.use(router)
 server.listen(3000, () => {
   console.log('JSON Server is running')

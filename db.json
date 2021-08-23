@@ -1,84 +1,244 @@
 {
-  "users": [
+  "food":{"Pasta":[ 
     {
-      "id": 1,
-      "name": "David",
-      "age": 30,
-      "cart": [
-        {
-          "name": "fack",
-          "tall": "you"
-        }
-      ]
+      "name":"NEGRESCO MOZZARELLA",
+    "price":43,
+    "type":"Pasta",
+    "cont":"مكرونة بنا بصوص جبن شيلتر مع قطع صدور الدجاج بالاضافة لجبن الموتزاريلا"
+    },  
+    {
+      "name":"CHICKEN BALLS MOZZARELLA",
+    "price":58,
+    "type":"Pasta",
+
+    "cont":"مكرونة شريط بصوص جبن شيلتر مع كرات الدجاج المقرمشة بالاضافة لجبن الموتزاريلا"
+    },    
+    {
+      "name":"CORDON BLEU MOZZARELLA",
+      "type":"Pasta",
+      "price":70,
+    "cont":"المكرونه السوسته مع 6 قطع الكوردن بلو بصوص جبن شيلتر والجبنة الموتزاريلا"
+    },   
+    {
+      "name":"ALFREDO MOZZARELLA",
+    "price":68,
+    "type":"Pasta",
+    "cont":"مكرونه شريط وصوص جبن شيلتر والمشروم مع قطع صدور دجاج والجبنة الموتزاريلا"
+    },   
+    {
+      "name":"SEAFOOD MOZZARELLA",
+    "price":80,
+    "type":"Pasta",
+    "cont":"جمبري و كابوريا و مكرونه بنا أو شريط و صوص جبن شيلتر و جبنه موتزاريلا"
+    } 
+  ],
+    "Meals":[
+      {
+        "name":"CHICKEN STICKS",
+      "price":41,
+    "type":"Meals",
+      "cont":"عدد 4 قطع استربس مع الخبز و صوص سويت اند سور و الكولا"
+      }, 
+      {
+        "name":"STRIPS CRUNCHY",
+      "price":77,
+    "type":"Meals",
+      "cont":"عدد 5 قطع استريس كرانشي تقدم مع البطاطس و صوص الريزو و الكلوسلو و البيبسي و الخبز و الارز"
+      },  
+      {
+        "name":"SHESH TAWOOK",
+      "price":85,
+    "type":"Meals",
+      "cont":"قطع شيش طاووق مع خضار الشيش طاووق و ارز و بطاطس و بيبسي و كلو سلو"
+      },   
+      {
+        "name":"CHICKEN DIET",
+      "price":75,
+    "type":"Meals",
+      "cont":" قطع صدور مشوية و خضار سوتية و عيش دايت و سلطة خضراء و بيبسي دايت"
+      }, 
+      {
+        "name":"SUPER MIX",
+      "price":100,
+    "type":"Meals",
+      "cont":" قطع استربس و 2 صابع كفته و قطعه صدر مشوي عريضه و رایزو بطاطس و بيبسي و كلو سلو"
+      },   
+      {
+        "name":"MIX GRILL",
+      "price":100,
+    "type":"Meals",
+      "cont":" كفته مشويه و2 قطع شیش و قطعه صدر مشوي عريضه وحضار شیش و ارز و بطاطس و بيبسي و كلو سلو"
+      }
+      
+    ],
+    "Chease Tasa":[
+      {
+        "name":"Cheese Tasa",
+      "price":35,
+    "type":"Cheese Tasa",
+      "cont":"أصابع البطاطس المتبله بالخلطة السرية مع صوص جبن شيلتر والموتزاريلا"
     },
     {
-      "name": "John",
-      "id": 2,
-      "age": 40
-    },
-    {
-      "logo": "sample",
-      "id": 3
-    },
-    {
-      "logo": "sample",
-      "id": 4
-    },
-    {
-      "logo": "sample",
-      "id": 5
-    },
-    {
-      "usercart": "sample",
-      "id": 6
-    },
-    {
-      "usercart": "sample",
-      "id": 7
-    },
-    {
-      "usercart": "sample",
-      "id": 8
-    },
-    {
-      "usercart": "sample",
-      "id": 9
-    },
-    {
-      "usercart": "sample",
-      "id": 10
-    },
-    {
-      "usercart": "sample",
-      "id": 11
-    },
-    {
-      "usercart": "sample",
-      "id": 12
-    },
-    {
-      "usercart": "sample",
-      "id": 13
-    },
-    {
-      "usercart": "sample",
-      "id": 14
-    },
-    {
-      "usercart": "sample",
-      "id": 15
-    },
-    {
-      "usercart": "sample",
-      "id": 16
-    },
-    {
-      "usercart": "sample",
-      "id": 17
-    },
-    {
-      "usercart": "sample",
-      "id": 18
-    }
-  ]
+      "name":"MIX CHEESE",
+    "price":52,
+    "type":"Cheese Tasa",
+    "cont":"جبن شيدر و موتزاريلا و صوص جبن شيلتر"
+  },
+  {
+    "name":"SAUSAGE CHEESE",
+  "price":54,
+  "type":"Cheese Tasa",
+  "cont":"طاسة سجق مع صوص جبن شيلتر و الموتزاريلا"
+},
+{
+  "name":"HOT DOG CHEESE",
+"price":54,
+"type":"Cheese Tasa",
+"cont":"هوت دوج وصوص جبن شيلتر مع الجبن الموتزاريلا"
+}, 
+  {
+  "name":"SPINACH MUSHROOM",
+"price":54,
+"type":"Cheese Tasa",
+"cont":"سبانخ والمشروم وصوص جبن شيلتر و الموتزاريلا"
+},   
+{
+  "name":"ZINGER CHEESE",
+"price":62,
+"type":"Cheese Tasa",
+"cont":"طاسة صدور الدجاج المقرمش مع وصوص جبن شيلتر و الموتزاريلا"
+},  
+{
+  "name":"MEATBALLS",
+"price":70,
+"type":"Cheese Tasa",
+"cont":"كور اللحم و صوص جبن شيلتر و الموتزاريلا"
+},   
+{
+  "name":"SEAFOOD",
+"price":80,
+"type":"Cheese Tasa",
+"cont":"جمبري و كابوريا و صوص جبن شيلتر و جبنة موتزاريلا"
+} 
+],
+    "Chicken Sandwich":[
+      {
+        "name":"CHICKEN ROLL",
+      "price":[44],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج المقرمشة مع صوص المايونيز الحار مغطاة بصوص جبن شيلتر بداخل العيش الشامي المميز"
+      },   
+      {
+        "name":"CHICKEN JALAPENO",
+      "price":[49,72],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج مع جبن البيبر جاك مغطاة بصوص الباربكيو الحار والهالبينو وصوص جبن شيلتر"
+      },   
+      {
+        "name":"CHICKEN CRUNCHY",
+      "price":[49,69],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج مع الرومي المدخن والجبنة الموتزاريلا وصوص جبن شيلتر"
+      },  
+      {
+        "name":"CHICKEN GRILL",
+      "price":[50,66],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج المشوي مع جبن امريكان و البصل المكرمل وصوص جبن شيلتر"
+      },   
+      {
+        "name":"CORDON BLEU",
+      "price":[50,73],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج المحشوة بالموتزاريلا مع اللحم البقري المدخن والشيدر مغطاة بصوص المايونيز"
+      },   
+      {
+        "name":"CHICKEN SHELTER",
+      "price":[55,73,83],
+      "type":"Chicken Sandwich",
+      "cont":"صدور الدجاج مع بيف بيكون و الرومي المدخن مغطاة بصوص جبن شيلتر وصوص شيلتر"
+      },   
+      {
+        "name":"MIX BEEF & CHICKEN",
+      "price":[85,139],
+      "type":"Chicken Sandwich",
+      "cont":"قطع صدور الدجاج المقرمشة مع بيف البرجر وبيف بيكون وجبن البلو تشيز و وصوص بيج شيلتر"
+      }
+    ],
+    "Beaf Sandwich":[
+      {
+        "name":"HOTDOG CHILLY",
+      "price":[39],
+      "type":"Beaf Sandwich",
+      "cont":"مايونيز وخيار وهوت دوج وصوص تشيلي ولحم مفروم وجبنه موتزاريلا"
+      },   
+      {
+        "name":"STREET BURGER",
+      "price":[53,76,112],
+      "type":"Beaf Sandwich",
+      "cont":"مايونيز و خيار و بصل و خس و طماطم و امريكان تشيز ولحم برجر و جبنه شيدر سايحة"
+      },   
+      {
+        "name":"MAHARAJAH SPICY",
+      "price":[58,83],
+      "type":"Beaf Sandwich",
+      "cont":"المشروم وجبن البيبر جاك والبصل المكرمل و الهالبينو وصوص سويت اند سور وصوص جبن شيلت"
+      },   
+      {
+        "name":"TRIPLE CHEESE",
+      "price":[60,90],
+      "type":"Beaf Sandwich",
+      "cont":"الجبنة البيبر جاك والجبنة الأمريكان والجبنة السويسري مغطاة بصوص الجبنة مع صوص جبن شيلتر"
+      },   
+      {
+        "name":"BACON BLUE",
+      "price":[61,87],
+      "type":"Beaf Sandwich",
+      "cont":"بيف بيكون مغطاة بصوص البلوشيز مع الجبنة السويسري وصوص جبن شيلتر"
+      },   
+      {
+        "name":"SHELTER RINGS",
+      "price":[69,99],
+      "type":"Beaf Sandwich",
+      "cont":"ماينوئيز و خيار وخس واميريكان تشيز وائيون رينجز وبصل مكرمل ومتزاريلا ستكس ولحم بقري وجبنه شيدر سايحة"
+      },   {
+        "name":"MOLTEN CHEESE",
+      "price":[66,92],
+      "type":"Beaf Sandwich",
+      "cont":"البرجر المحشو بالجبنة الموتزاريلا مع بيف بيكون مغطاة بالجبنة الأمريكان وصوص المشروم والبصل المكرمل مع صوص جبن شيلتر      "
+      },   
+      {
+        "name":"DOUBEL DOWEN",
+      "price":[70,99],
+      "type":"Beaf Sandwich",
+      "cont":"قطعتين صدور مقرمشة ولحم برجر و مايونيز وخيار وبصل وخس وطمام واميريكان تشيز وجبنه شيدر سايحة"
+      },   {
+        "name":"FIRE KING SPICY",
+      "price":[69,89],
+      "type":"Beaf Sandwich",
+      "cont":"بيف بيكون وصوابع الجبنة الموتزاريلا مغطاة بالجبنة الأمريكان وصوص جبن شلتر وصوص المايونيز الحار والدوريتوس"
+      },  
+      {
+        "name":"SMOOKY BURGER",
+      "price":[69,92],
+      "type":"Beaf Sandwich",
+      "cont":""
+      }
+    ]
+ 
 }
+
+
+
+  ,
+  "users":[
+      
+    {"id":1,
+    "name":"ahmed",
+    "email":"ahmed@gmail.com",
+    "uid":"42343wrewesdosad",
+    "phone":"1312312412"
+}
+]
+}
+
