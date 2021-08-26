@@ -1,8 +1,10 @@
-PATCH         http://localhost:3000/users/50 HTTP/1.1
-Content-Type: application/json
+GET https://api.jsonbin.io/b/61281cdfc5159b35ae047720/ HTTP/1.1
+HEAD 
+X-Dot-Path: /food
+HEAD 
+secret-key: $2b$10$TgrhMBNjg0PiwX2xYiil5u8heD.pkjURfrCRtUPzzvaUH5ktpm9Fy
 
 { 
-      "incart": [
-        ]
+     
    
 }
