@@ -269,24 +269,23 @@
         "CHICKEN BALLS MOZZARELLA"
       ]
     },
-    {
-      "name": "mohamed",
-      "email": "mmmm@gmail.com",
-      "uid": "42343wrewesdosad",
-      "phone": "1312312412",
-      "incart": [
+   {
+      "uid": "pAscQnaxoGafNppEd7aTsUwfpYj1",
+      "name": "farouk",
+      "phone": "01064580600",
+      "email": "mohamed@gmail.com",
+     "incart": [
         "NEGRESCO MOZZARELLA",
         "CHICKEN BALLS MOZZARELLA"
       ],
-      "id": 2
+      "id": 52
     },
     {
-      "id": 50,
-      "name": "mohamed",
-      "email": "mmmm@gmail.com",
-      "uid": "42343wrewesdosad",
-      "phone": "1312312412",
-      "incart": []
+      "uid": "WIYusEQew0Rv7rJsWJO5LL83qH63",
+      "name": "farouk xp",
+      "phone": null,
+      "email": "faroukxp1998@gmail.com",
+      "id": 53
     }
   ]
 }
