@@ -51,6 +51,66 @@ server.use((req, res, next) => {
    // "Side Items":[],
    // "Extra":[]
 
+/* 
+   {
+    "Chease Tasa": [
+      {
+        "name": "Cheese Tasa",
+        "incart": false,
+        "price": 35,
+        "type": "Cheese Tasa",
+        "cont": "أصابع البطاطس المتبله بالخلطة السرية مع صوص جبن شيلتر والموتزاريلا"
+      },
+      {
+        "name": "MIX CHEESE",
+        "incart": false,
+        "price": 52,
+        "type": "Cheese Tasa",
+        "cont": "جبن شيدر و موتزاريلا و صوص جبن شيلتر"
+      },
+      {
+        "name": "SAUSAGE CHEESE",
+        "incart": false,
+        "price": 54,
+        "type": "Cheese Tasa",
+        "cont": "طاسة سجق مع صوص جبن شيلتر و الموتزاريلا"
+      },
+      {
+        "name": "HOT DOG CHEESE",
+        "incart": false,
+        "price": 54,
+        "type": "Cheese Tasa",
+        "cont": "هوت دوج وصوص جبن شيلتر مع الجبن الموتزاريلا"
+      },
+      {
+        "name": "SPINACH MUSHROOM",
+        "incart": false,
+        "price": 54,
+        "type": "Cheese Tasa",
+        "cont": "سبانخ والمشروم وصوص جبن شيلتر و الموتزاريلا"
+      },
+      {
+        "name": "ZINGER CHEESE",
+        "incart": false,
+        "price": 62,
+        "type": "Cheese Tasa",
+        "cont": "طاسة صدور الدجاج المقرمش مع وصوص جبن شيلتر و الموتزاريلا"
+      },
+      {
+        "name": "MEATBALLS",
+        "incart": false,
+        "price": 70,
+        "type": "Cheese Tasa",
+        "cont": "كور اللحم و صوص جبن شيلتر و الموتزاريلا"
+      },
+      {
+        "name": "SEAFOOD",
+        "incart": false,
+        "price": 80,
+        "type": "Cheese Tasa",
+        "cont": "جمبري و كابوريا و صوص جبن شيلتر و جبنة موتزاريلا"
+      }
+    ] ,"id":3} */
   const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
